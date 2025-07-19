@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rasel's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <section class="hero">
+    <div class="hero-content">
+      <img src="https://raw.githubusercontent.com/rasel075/myPortfolio1/main/profile1.jpg" alt="Rasel" class="profile-pic" />
+      <div>
+        <h1>Hello, I'm <span class="highlight">Rasel</span></h1>
+        <p class="subtitle">Student of SUST, CSE</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects">
+    <h2>My Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>✊ Rock Paper Scissors Game</h3>
+        <p>A fun browser-based game with simple logic.</p>
+      </div>
+      <div class="project-card">
+        <h3>📚 Tuition Media Web App</h3>
+        <p>A system to manage tuition communications in Sylhet.</p>
+      </div>
+      <div class="project-card">
+        <h3>🚧 Coming Soon</h3>
+        <p>More awesome projects are on the way!</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>📧 Email: <a href="mailto:harunorrashid289@gmail.com">harunorrashid289@gmail.com</a></p>
+    <p>🔗 Facebook: <a href="https://www.facebook.com/mohammad.rasel2021" target="_blank">Visit Profile</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Rasel</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
